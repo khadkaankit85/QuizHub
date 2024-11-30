@@ -33,10 +33,7 @@ export default function () {
         ref={inputRef}
         onKeyDown={handleEnter}
       />
-      <button
-        onClick={handleJoinRequest}
-        className={`${styles.searchbutton} ${styles.navbutton}`}
-      >
+      <button onClick={handleJoinRequest} className={`${styles.searchbutton}`}>
         Join
       </button>
       <ToastContainer />

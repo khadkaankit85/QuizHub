@@ -4,7 +4,7 @@ import Searchbar from "./Searchbar";
 export default function () {
   return (
     <nav className={styles.nav}>
-      <Link href="/" className={styles.navbutton}>
+      <Link href="/" className={`${styles.navbutton} text-[#8e4bb1] font-bold`}>
         QuizHub
       </Link>
       <Searchbar />

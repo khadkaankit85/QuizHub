@@ -11,5 +11,5 @@
   @apply hover:bg-[rgb(205,205,205,0.2)] w-24 h-12 rounded-2xl hover:cursor-pointer max-[720px]:hidden;
 }
 .signupbutton {
-  @apply w-28 h-12 rounded-md hover:cursor-pointer bg-[#0069FF] text-white hover:bg-[#0000FF] transition-all duration-300 max-[520px]:text-sm max-[520px]:w-20 max-[520px]:h-10;
+  @apply text-center w-28 h-12 rounded-md hover:cursor-pointer min-[7020px]:bg-[#340458] bg-[#8e4bb1] text-white hover:bg-[#5c1982] transition-all duration-300 max-[520px]:text-sm max-[520px]:w-20 max-[520px]:h-10;
 }

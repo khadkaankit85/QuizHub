@@ -13,7 +13,7 @@
   @apply mx-auto;
 }
 .joinnowbtn {
-  @apply w-fit px-4 h-12 rounded-md hover:cursor-pointer bg-[#0069FF] text-white hover:bg-[#0000FF] transition-all duration-300 max-[520px]:text-sm  max-[520px]:h-10;
+  @apply w-fit px-4 h-12 rounded-md hover:cursor-pointer bg-[#8e4bb1] text-white hover:bg-[#5c1982] transition-all duration-300 max-[520px]:text-sm  max-[520px]:h-10;
 }
 .middiv {
   @apply m-auto  text-center w-[75%] mt-8 flex flex-col items-center;

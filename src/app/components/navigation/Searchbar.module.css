@@ -2,8 +2,8 @@
   @apply border-hidden p-2 w-[90%] h-10 rounded-r-[0px] outline-none max-[520px]:placeholder:text-sm max-[520px]:p-[0px];
 }
 .searchbutton {
-  @apply rounded-md rounded-r-3xl w-[10%] h-14 hover:cursor-pointer bg-[#0069FF] text-white hover:bg-[#0000FF] transition-all duration-300 text-center min-w-fit max-[520px]:text-sm max-[520px]:w-10 px-8 max-[520px]:px-4;
+  @apply rounded-md rounded-r-3xl w-[10%] h-14 hover:cursor-pointer min-[5200px]:bg-[#0069FF] bg-[#8e4bb1] text-white hover:bg-[#5c1982] transition-all duration-300 text-center min-w-fit max-[520px]:text-sm max-[520px]:w-10 px-8 max-[520px]:px-4;
 }
 .navinputdiv {
-  @apply w-2/3 pl-2 h-12 overflow-hidden rounded-3xl border-r-[0px] flex justify-between items-center border-2 border-black max-[520px]:w-1/2 max-[520px]:h-10 max-[520px]:w-[80%];
+  @apply w-2/3 pl-2 h-12 overflow-hidden rounded-3xl border-r-[0px] flex justify-between items-center border-2 border-black max-[520px]:h-10 max-[520px]:w-[80%];
 }

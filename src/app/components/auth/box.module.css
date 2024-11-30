@@ -17,7 +17,7 @@
   @apply flex justify-between gap-4 items-center flex-col min-h-fit;
 }
 .button {
-  @apply min-w-fit p-2 bg-[#8e4bb1] text-white rounded-md hover:cursor-pointer w-full hover:bg-[#5c1982] transition-all duration-300;
+  @apply min-w-fit px-2 py-1 bg-[#8e4bb1] text-white rounded-md hover:cursor-pointer w-full hover:bg-[#5c1982] transition-all duration-300 flex justify-between items-center;
 }
 .texts > h3,
 .texts > p {

@@ -2,20 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+/* importing fonts */
+@font-face {
+  font-family: "Parkinsans";
+  src: url("./fonts/Parkinsans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Parkinsans";
+  font-weight: bold;
+  src: url("./fonts/Parkinsans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Parkinsans";
+  font-weight: 500;
+  src: url("./fonts/Parkinsans-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Parkinsans";
+  font-weight: 600;
+  src: url("./fonts/Parkinsans-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Parkinsans";
+  font-weight: 700;
+  src: url("./fonts/Parkinsans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Parkinsans";
+  font-weight: 800;
+  src: url("./fonts/Parkinsans-ExtraBold.ttf") format("truetype");
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Parkinsans, Arial, Helvetica, sans-serif;
 }

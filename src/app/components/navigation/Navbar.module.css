@@ -1,0 +1,24 @@
+.nav {
+  @apply flex justify-between gap-5 px-8 h-20 items-center border-b-[2px] border-[#e3e8f4] max-[520px]:gap-2 max-[520px]:px-4 max-[400px]:gap-[0px];
+}
+.navbuttonsection {
+  @apply flex justify-between gap-6 max-[520px]:gap-2;
+}
+.navbutton {
+  @apply text-2xl rounded-md p-2 max-[520px]:text-sm;
+}
+.loginbutton {
+  @apply hover:bg-[rgb(205,205,205,0.2)] w-24 h-12 rounded-2xl hover:cursor-pointer max-[720px]:hidden;
+}
+.signupbutton {
+  @apply w-28 h-12 rounded-md hover:cursor-pointer bg-[#0069FF] text-white hover:bg-[#0000FF] transition-all duration-300 max-[520px]:text-sm max-[520px]:w-20 max-[520px]:h-10;
+}
+.navinputdiv {
+  @apply w-2/3 pl-2 h-12 overflow-hidden rounded-3xl border-r-[0px] flex justify-between items-center border-2 border-black max-[520px]:w-1/2 max-[520px]:h-10 max-[520px]:w-[80%];
+}
+.navinput {
+  @apply border-hidden p-2 w-[90%] h-10 rounded-r-[0px] outline-none max-[520px]:placeholder:text-sm max-[520px]:p-[0px];
+}
+.searchbutton {
+  @apply rounded-md rounded-r-3xl w-[10%] h-14 hover:cursor-pointer bg-[#0069FF] text-white hover:bg-[#0000FF] transition-all duration-300 text-center min-w-fit max-[520px]:text-sm max-[520px]:w-10 px-8 max-[520px]:px-4;
+}

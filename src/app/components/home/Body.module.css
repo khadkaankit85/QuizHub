@@ -1,0 +1,26 @@
+.main {
+}
+.headdiv {
+  @apply m-auto  text-center w-[75%] mt-8 flex flex-col items-center;
+}
+.headline {
+  @apply text-5xl  font-medium max-[640px]:text-4xl max-[520px]:text-2xl;
+}
+.subheadline {
+  @apply mt-4 text-lg max-[520px]:text-sm;
+}
+.mainimage {
+  @apply mx-auto;
+}
+.joinnowbtn {
+  @apply w-fit px-4 h-12 rounded-md hover:cursor-pointer bg-[#0069FF] text-white hover:bg-[#0000FF] transition-all duration-300 max-[520px]:text-sm  max-[520px]:h-10;
+}
+.middiv {
+  @apply m-auto  text-center w-[75%] mt-8 flex flex-col items-center;
+}
+.midheadline {
+  @apply text-3xl  font-medium max-[520px]:text-xl max-[640px]:text-2xl;
+}
+.midsubheadline {
+  @apply mt-4 text-lg max-[520px]:text-sm;
+}

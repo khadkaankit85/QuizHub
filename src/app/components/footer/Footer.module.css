@@ -1,5 +1,5 @@
 .footer {
-  @apply border-t-[2px] border-[#e3e8f4] py-4 mt-3 w-screen h-20;
+  @apply border-t-[2px] border-[#e3e8f4]  mt-3 w-[98%] h-20 mx-auto;
 }
 .lastdiv {
   @apply w-1/2 h-10 flex justify-center items-center  mx-auto;

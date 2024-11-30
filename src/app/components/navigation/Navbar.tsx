@@ -10,13 +10,13 @@ export default function () {
       <Searchbar />
       <div className={styles.navbuttonsection}>
         <Link
-          href="/login"
+          href="/auth/login"
           className={`${styles.navbutton} ${styles.loginbutton}`}
         >
           Login
         </Link>
         <Link
-          href="/signup"
+          href="/auth/signup"
           className={`${styles.navbutton} ${styles.signupbutton}`}
         >
           Signup

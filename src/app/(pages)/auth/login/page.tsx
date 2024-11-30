@@ -1,3 +1,9 @@
+import LoginBox from "@/app/components/auth/LoginBox";
+import styles from "./../auth.module.css";
 export default function () {
-  return <div> this is the login page</div>;
+  return (
+    <section className={styles.section}>
+      <LoginBox />
+    </section>
+  );
 }

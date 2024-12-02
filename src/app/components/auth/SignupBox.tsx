@@ -35,7 +35,7 @@ export default function () {
       </div>
       <p>
         {" "}
-        already have an account? <a href="/auth/login">login</a>
+        already have an account? <Link href="/auth/login">login</Link>
       </p>
     </main>
   );

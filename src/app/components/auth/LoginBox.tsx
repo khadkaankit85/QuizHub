@@ -35,7 +35,7 @@ export default function () {
       </div>
       <p>
         {" "}
-        don't have an account? <a href="/auth/signup">signup</a>
+        don't have an account? <Link href="/auth/signup">signup</Link>
       </p>
     </main>
   );

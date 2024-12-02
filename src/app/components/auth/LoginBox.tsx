@@ -1,9 +1,11 @@
+"use client";
 import Link from "next/link";
 import styles from "./box.module.css";
 import quiz from "../../../../public/images/quiz.png";
 import facebook from "../../../../public/images/facebook.png";
 import google from "../../../../public/images/google.png";
 import Image from "next/image";
+import { signIn } from "next-auth/react";
 export default function () {
   return (
     <main className={styles.main}>
@@ -23,14 +25,28 @@ export default function () {
           <p>Log in to your account really quickly</p>
         </div>
         <div className={styles.buttonsdiv}>
-          <Link href="/auth/google" className={styles.button}>
+          <button
+            onClick={() =>
+              signIn("google", {
+                redirecturl: "dashboard",
+              })
+            }
+            className={styles.button}
+          >
             <Image src={google} alt="google" width={40} height={40} />
             Continue with Google
-          </Link>
-          <Link href="/auth/facebook" className={styles.button}>
+          </button>
+          <button
+            onClick={() => {
+              signIn("facebook", {
+                redirecturl: "/dashboard",
+              });
+            }}
+            className={styles.button}
+          >
             <Image src={facebook} alt="facebook" width={50} height={50} />
             Continue with facebook
-          </Link>
+          </button>
         </div>
       </div>
       <p>

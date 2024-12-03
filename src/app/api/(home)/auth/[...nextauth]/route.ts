@@ -3,7 +3,7 @@ import GithubProvider from "next-auth/providers/github";
 import GoogleProvider from "next-auth/providers/google";
 import FacebookProvider from "next-auth/providers/facebook";
 
-const handler = NextAuth({
+export const authOptions = NextAuth({
   providers: [
     GithubProvider({
       clientId: process.env.GITHUB_ID!,
@@ -27,4 +27,4 @@ const handler = NextAuth({
   ],
 });
 
-export { handler as GET, handler as POST };
+export { authOptions as GET, authOptions as POST };

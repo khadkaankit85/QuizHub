@@ -2,13 +2,13 @@
 
 ## 1. Setup and Initialization
 
-- [ ] Set up the project using Next.js, Tailwind CSS, TypeScript, Other dependencies and environment variables.
+- [x] Set up the project using Next.js, Tailwind CSS, TypeScript, Other dependencies and environment variables.
 
 ## 2. Authentication System
 
-- [ ] Integrate Google and Facebook login/signup using `next-auth`.
-- [ ] Configure JWT-based authentication for securing API routes.
-- [ ] Set up session management to persist user authentication.
+- [x] Integrate Google and Facebook login/signup using `next-auth`.
+- [x] Configure JWT-based authentication for securing API routes.
+- [x] Set up session management to persist user authentication.
 
 ## 3. User Dashboard
 
@@ -24,7 +24,7 @@
 
 ## 5. Quiz Participation
 
-- [ ] Create a landing page to join a quiz using the room ID.
+- [x] Create a landing page to join a quiz using the room ID.
 - [ ] Prompt users to log in or sign up if not authenticated.
 - [ ] Generate and display a QR code for each quiz room to allow users to join easily.
 - [ ] Implement the quiz-taking interface for participants.
@@ -45,7 +45,7 @@
 ## 8. Backend API Development
 
 - [ ] Set up a backend using Next.js API routes.
-- [ ] Create API endpoints for user authentication, quiz creation, participation, and data retrieval.
+- [x] Create API endpoints for user authentication, quiz creation, participation, and data retrieval.
 - [ ] Implement middleware to secure API routes.
 - [ ] Integrate a database (e.g., MongoDB, PostgreSQL, Firebase) to store data.
 
@@ -56,8 +56,7 @@
 
 ## 10. Frontend Features
 
-- [ ] Design a responsive UI using Tailwind CSS.
-- [ ] Use React components to modularize the codebase.
+- [x] Use React components to modularize the codebase.
 - [ ] Add loading spinners and error messages for better user experience.
 - [ ] Implement a dark mode toggle.
 

@@ -1,38 +1,22 @@
 .nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: #333;
-  color: #fff;
+  @apply w-full  h-24 bg-[#f2f2f2] flex justify-center items-center gap-4;
 }
-
-.div1 {
-  flex: 1;
+.logodiv {
+  @apply w-fit pl-5;
 }
-
-.div2 {
-  flex: 2;
-  display: flex;
-  justify-content: flex-end;
+.links {
+  @apply w-2/5 h-full flex justify-center items-center gap-4;
+}
+.searchbar {
+  @apply w-2/5 h-full  flex justify-center items-center gap-4;
 }
 
 .navLinks {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
+  @apply flex justify-center items-center gap-4;
 }
-
-.navLinks li {
-  margin: 0;
+.navinput {
+  @apply outline-black w-[30rem] h-10 rounded-3xl px-5 text-xl;
 }
-
-.navLinks a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-.navLinks a:hover {
-  text-decoration: underline;
+.navbuttondiv {
+  @apply w-1/5 h-full flex  justify-end  pr-5;
 }

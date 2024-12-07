@@ -8,6 +8,9 @@ import Image from "next/image";
 import search from "../../../../public/search.png";
 import cross from "../../../../public/multiply.png";
 import threeline from "../../../../public/threeline.png";
+import { Home, Recent } from "../home/Icons";
+
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   function handleSearch() {
@@ -16,6 +19,10 @@ export default function Navbar() {
   function toggleProfile() {
     setShowProfile(!showProfile);
   }
+
+  const pathname = usePathname();
+
+  console.log(pathname);
 
   const [showProfile, setShowProfile] = useState(false);
 
@@ -37,13 +44,31 @@ export default function Navbar() {
       <div className={styles.links}>
         <ul className={styles.navLinks}>
           <li>
-            <Link href="/home" className="flex items-center justify-center">
-              <Image alt="homeicon" width={40} height={40} src={cross} /> Home
+            {/* all the image changes can be made dynamic using css which is more efficient  */}
+            <Link href="/dashboard" className="navlinkButton">
+              <Image
+                alt="homeicon"
+                width={40}
+                height={40}
+                src={
+                  pathname == "/dashboard" ? Home("purple") : Home("regular")
+                }
+              />{" "}
+              Home
             </Link>
           </li>
           <li>
-            <Link href="/recent" className="flex items-center justify-center">
-              <Image alt="homeicon" width={40} height={40} src={cross} />
+            <Link href="/dashboard/recent" className="navlinkButton">
+              <Image
+                alt="homeicon"
+                width={40}
+                height={40}
+                src={
+                  pathname == "/dashboard/recent"
+                    ? Recent("purple")
+                    : Recent("regular")
+                }
+              />
               Recent
             </Link>
           </li>

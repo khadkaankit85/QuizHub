@@ -12,11 +12,17 @@
 }
 
 .navLinks {
-  @apply flex justify-center items-center gap-4;
+  @apply w-1/3 h-full flex justify-between items-center gap-4;
+}
+.navLinks li {
+  @apply hover:border-b-[#6F459B] hover:border-b-[2px] block  px-5 hover:cursor-pointer;
 }
 .navinput {
   @apply outline-black w-[30rem] h-10 rounded-3xl px-5 text-xl;
 }
 .navbuttondiv {
   @apply w-1/5 h-full flex  justify-end  pr-5;
+}
+.navlinkButton {
+  @apply flex items-center justify-center hover:hidden hover:border-b-[#6F459B] hover:border-b h-10 text-xl;
 }

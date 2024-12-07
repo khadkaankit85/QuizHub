@@ -22,8 +22,6 @@ export default function Navbar() {
 
   const pathname = usePathname();
 
-  console.log(pathname);
-
   const [showProfile, setShowProfile] = useState(false);
 
   return (
@@ -84,6 +82,9 @@ export default function Navbar() {
           />
         </button>
       </div>
+      {showProfile && (
+        <div className={`${styles.profilediv} ${styles.popin}`}> </div>
+      )}
     </nav>
   );
 }

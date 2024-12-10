@@ -9,9 +9,7 @@ const app = express();
 const server = createServer(app);
 const io = new Server(server);
 
-io.on("connection", (socket) => {
-  console.log("a new socket connected");
-});
+io.on("connection", (socket) => {});
 
 server.listen(port, () => {
   console.log("server up and running at http://" + hostname + ":" + port);

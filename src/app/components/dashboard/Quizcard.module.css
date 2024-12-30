@@ -1,3 +1,12 @@
 .card {
-  @apply w-[20rem]  h-[20rem] bg-[#f2f2f2] rounded-3xl flex justify-center items-center flex-col border-hidden shadow-2xl;
+  @apply w-[20rem]  h-[20rem] bg-[#f2f2f2] rounded-3xl flex justify-center items-center flex-col border-hidden shadow-2xl relative;
+}
+.createquizcard {
+  @apply flex  justify-end items-baseline;
+}
+.createCardImage {
+  @apply size-full absolute opacity-[0.5];
+}
+.addbutton {
+  @apply z-10 absolute bottom-8  right-[5%] text-3xl hover:cursor-pointer size-[5rem];
 }

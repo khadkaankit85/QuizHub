@@ -5,7 +5,7 @@ export const NotFound = (props: {}) => {
   return (
     <div className="flex gap-6 items-center justify-center flex-col h-screen w-screen">
       <DotLottieReact
-        src="/images/404.lottie"
+        src="/images/4041.lottie"
         loop
         autoplay
         className="size-[80%]"

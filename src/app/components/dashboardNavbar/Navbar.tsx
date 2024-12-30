@@ -27,16 +27,25 @@ export default function Navbar() {
   return (
     <nav className={styles.nav}>
       <div className={styles.logodiv}>
-        <Logo smallsize={"1.4"} largeSize={"2"} />
+        <Link href="/" className={styles.logo}>
+          QuizHub
+        </Link>
       </div>
       <div className={styles.searchbar}>
         <input className={styles.navinput} />
         <button
+          className={styles.searchbutton}
           onClick={() => {
             handleSearch();
           }}
         >
-          <Image height={40} width={40} src={search} alt="search" />
+          <Image
+            height={40}
+            width={40}
+            src={search}
+            className={styles.searchImage}
+            alt="search"
+          />
         </button>
       </div>
       <div className={styles.links}>
@@ -79,6 +88,7 @@ export default function Navbar() {
             width={40}
             height={40}
             alt="navbutton"
+            objectFit="cover"
           />
         </button>
       </div>

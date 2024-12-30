@@ -10,10 +10,10 @@ export const NotFound = (props: {}) => {
         autoplay
         className="size-[80%]"
       />
-      <h2 className="text-3xl font-bold text-black  ">
+      <h2 className="text-3xl font-bold text-black notFoundAnimated">
         Did you get lost? Let's go{" "}
         <a
-          href="dashboard"
+          href="/dashboard"
           className="text-[#8e4bb1] hover:text-[#5c1982] transition-all duration-300"
         >
           {" "}

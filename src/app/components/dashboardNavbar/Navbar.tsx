@@ -88,12 +88,30 @@ export default function Navbar() {
             width={40}
             height={40}
             alt="navbutton"
-            objectFit="cover"
           />
         </button>
       </div>
       {showProfile && (
-        <div className={`${styles.profilediv} ${styles.popin}`}> </div>
+        <div className={`${styles.profilediv} ${styles.popin}`}>
+          <Link href="/dashboard/profile">
+            <Image
+              src="/images/profile.png"
+              alt="profile"
+              width={30}
+              height={30}
+            />
+            Profile
+          </Link>
+          <Link href="/">
+            <Image
+              src="/images/logout.png"
+              alt="profile"
+              width={30}
+              height={30}
+            />
+            Logout
+          </Link>
+        </div>
       )}
     </nav>
   );

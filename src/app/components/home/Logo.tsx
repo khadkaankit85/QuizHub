@@ -12,7 +12,7 @@ export default function Logo({ smallsize, largeSize }: Props) {
       className="rounded-md text-[#8e4bb2] font-bold"
       style={{
         fontSize: `${largeSize}rem`,
-        [`@media (max-width: 520px)` as unknown as string]: {
+        [`@media (maxWidth: 520px)` as unknown as string]: {
           fontSize: `${smallsize}rem`,
         },
       }}

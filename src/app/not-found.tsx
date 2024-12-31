@@ -1,7 +1,7 @@
 "use client";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
-export const NotFound = (props: {}) => {
+export const NotFound = () => {
   return (
     <div className="flex gap-6 items-center justify-center flex-col h-screen w-screen">
       <DotLottieReact

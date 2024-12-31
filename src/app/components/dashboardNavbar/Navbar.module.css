@@ -45,7 +45,8 @@
 .profilediv {
   @apply z-[10000] fixed right-10 top-20 flex items-center flex-col justify-center gap-2 bg-[#8e4bb1] w-64 h-32 rounded-md text-white;
 }
-.profilediv > a {
+.profilediv > a,
+.profilediv > button {
   @apply flex items-center justify-center gap-2;
 }
 

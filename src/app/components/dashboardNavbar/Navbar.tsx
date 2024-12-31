@@ -11,6 +11,7 @@ import threeline from "../../../../public/threeline.png";
 import { Home, Recent } from "../home/Icons";
 
 import { usePathname } from "next/navigation";
+import { signOut } from "next-auth/react";
 
 export default function Navbar() {
   function handleSearch() {
@@ -102,7 +103,11 @@ export default function Navbar() {
             />
             Profile
           </Link>
-          <Link href="/">
+          <button
+            onClick={() => {
+              signOut();
+            }}
+          >
             <Image
               src="/images/logout.png"
               alt="profile"
@@ -110,7 +115,7 @@ export default function Navbar() {
               height={30}
             />
             Logout
-          </Link>
+          </button>
         </div>
       )}
     </nav>

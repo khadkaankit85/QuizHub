@@ -24,7 +24,7 @@ export const Quizcard = ({
 }: QuizcardProps) => {
   return (
     <Link
-      href={`/play/${quizId}`}
+      href={`/dashboard/play/${quizId}`}
       className={`${styles.card} ${styles.quizcard}`}
     >
       <Image

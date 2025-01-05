@@ -1,4 +1,5 @@
 "use client";
+//#TODO:render half of this page on the server by refcatoring
 import Image from "next/image";
 
 function handleBack() {
@@ -23,13 +24,14 @@ const page = () => {
       <form
         method="POST"
         action="/api/createquiz"
-        className="border border-current flex flex-col gap-4 items-center  h-[80vh] min-h-fit w-[90%] mx-auto"
+        className="border border-current flex flex-col gap-4 mt-6 items-center  h-[80vh] min-h-fit w-[96%] mx-auto"
       >
         <div className="pt-6">
           <h4 className="text-2xl font-bold text-black text-center">
             General Quiz Information
           </h4>
         </div>
+        <div className="questionsSection min-h-fit flex flex-col gap-4"></div>
 
         <div>
           <button

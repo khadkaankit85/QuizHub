@@ -103,6 +103,16 @@ export default function Navbar() {
             />
             Profile
           </Link>
+
+          <Link className="pl-2" href="/dashboard/profile/settings">
+            <Image
+              src="/images/settingsWhite.svg"
+              alt="settings"
+              width={25}
+              height={25}
+            />
+            Settings
+          </Link>
           <button
             onClick={() => {
               signOut();

@@ -1,0 +1,6 @@
+.settings {
+  @apply w-[40%] h-[95dvh]  border-4 border-black rounded-md p-6;
+}
+.settings > h3 {
+  @apply font-bold text-xl flex items-center gap-2 justify-center;
+}

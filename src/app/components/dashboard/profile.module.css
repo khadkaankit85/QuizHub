@@ -1,0 +1,13 @@
+.banner {
+  @apply w-full h-[12rem] p-6 bg-[#f2f2f2];
+}
+.banner > * {
+  @apply w-1/2;
+}
+
+.bannerLeftSide > img {
+  @apply rounded-full inline-block;
+}
+.bannerLeftSide {
+  @apply flex justify-start gap-6 items-center;
+}

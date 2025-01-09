@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./Quizcard.module.css";
+import styles from "./quizcard.module.css";
 import Link from "next/link";
 import { formatNumberToReadable } from "@/app/utils/Utils";
 

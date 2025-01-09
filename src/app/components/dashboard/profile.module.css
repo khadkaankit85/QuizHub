@@ -11,3 +11,6 @@
 .bannerLeftSide {
   @apply flex justify-start gap-6 items-center;
 }
+.profileDetailOptions {
+  @apply cursor-pointer;
+}

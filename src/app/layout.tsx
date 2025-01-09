@@ -16,7 +16,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "QuizHub",
-  description: "live quiz with friends with a scoreboard ",
+  description: "live quiz with friends with a scoreboard",
 };
 
 export default function RootLayout({
@@ -26,6 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head></head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

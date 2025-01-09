@@ -9,7 +9,7 @@ const page = async () => {
   return (
     <>
       <Navbar />
-      <div className="flex border-2 border-black items-center justify-center w-2/3  mx-auto mt-6">
+      <div className="w-2/3  mx-auto mt-6 drop-shadow-md">
         <ProfileBanner />
       </div>
     </>

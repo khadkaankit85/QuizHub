@@ -25,6 +25,11 @@ export const authOptions = NextAuth({
       clientSecret: process.env.FACEBOOK_SECRET!,
     }),
   ],
+  callbacks: {
+    async redirect({ url, baseUrl }) {
+      return url.startsWith(baseUrl) ? baseUrl : baseUrl;
+    },
+  },
 });
 
 export { authOptions as GET, authOptions as POST };

@@ -26,7 +26,7 @@ export default function LoginBox() {
       </div>
       <p>
         {" "}
-        don't have an account? <Link href="/auth/signup">signup</Link>
+        don&apos;t have an account? <Link href="/auth/signup">signup</Link>
       </p>
     </main>
   );

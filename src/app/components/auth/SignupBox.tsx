@@ -4,7 +4,7 @@ import quiz from "../../../../public/images/quiz.png";
 import Image from "next/image";
 import SignInButtons from "./Loginbutton";
 
-export default function () {
+export default function SignupBox() {
   return (
     <main className={styles.main}>
       <div className={styles.top}>
